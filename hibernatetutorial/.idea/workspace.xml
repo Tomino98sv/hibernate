@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb602-6888-4afb-848a-2867e54d5d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/DeleteDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/DeleteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/DeleteDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/CreateStudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/CreateStudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/DeleteDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/DeleteDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +117,7 @@
       <workItem from="1578654789449" duration="439000" />
       <workItem from="1578768599144" duration="39000" />
       <workItem from="1578898416294" duration="2910000" />
-      <workItem from="1578910379617" duration="2675000" />
+      <workItem from="1578910379617" duration="3696000" />
     </task>
     <servers />
   </component>

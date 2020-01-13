@@ -19,6 +19,8 @@ public class DeleteDemo {
             int studentId = 1;
             Student myStudent = session.get(Student.class, studentId);
             session.delete(myStudent);
+            session.createQuery("delete from student where id=2").executeUpdate();
+
             session.getTransaction().commit();
         }catch (Exception exp) {
             exp.printStackTrace();

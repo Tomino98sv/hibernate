@@ -40,18 +40,6 @@ public class CreateStudentDemo {
             System.out.println("Get complete "+studentFromDB);
             session.getTransaction().commit();
 
-            session = factory.getCurrentSession();
-            session.beginTransaction();
-            studentFromDB.setFirstName("Harabin");
-            session.save(studentFromDB);
-            session.getTransaction().commit();
-
-            session = factory.getCurrentSession();
-            session.beginTransaction();
-            String querry = "update Student set email='foo@gmail.com'";
-            session.createQuery(querry).executeUpdate();
-            session.getTransaction().commit();
-
             System.out.println("Done");
         }catch (Exception exp) {
             exp.printStackTrace();
