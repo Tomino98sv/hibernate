@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb602-6888-4afb-848a-2867e54d5d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernatetutorial2/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernatetutorial2/hibernatetutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hibernate-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/DeleteDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/UpdateDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/jdbc/TextJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateStudentDemo">
+  <component name="RunManager" selected="Application.DeleteDemo">
     <configuration name="CreateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demoentity.CreateStudentDemo" />
       <module name="hibernate-tutorial" />
@@ -94,22 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJdbc" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.jdbc.TestJdbc" />
+    <configuration name="TextJdbc" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.jdbc.TextJdbc" />
       <module name="hibernate-tutorial" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestJdbc" />
+      <item itemvalue="Application.TextJdbc" />
       <item itemvalue="Application.CreateStudentDemo" />
       <item itemvalue="Application.DeleteDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateStudentDemo" />
         <item itemvalue="Application.DeleteDemo" />
+        <item itemvalue="Application.CreateStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -131,8 +118,6 @@
       <workItem from="1578923920738" duration="23000" />
       <workItem from="1579161575968" duration="599000" />
       <workItem from="1579259958384" duration="718000" />
-      <workItem from="1579260900413" duration="2550000" />
-      <workItem from="1579510930421" duration="1927000" />
     </task>
     <servers />
   </component>

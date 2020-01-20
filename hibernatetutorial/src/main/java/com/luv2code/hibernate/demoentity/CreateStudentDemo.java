@@ -8,45 +8,34 @@ import org.hibernate.cfg.Configuration;
 public class CreateStudentDemo {
 
     public static void main(String[] args) {
-
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Student.class)
+                .addAnnotatedClass(Instructor.class)
+                .addAnnotatedClass(InstructorDetail.class)
                 .buildSessionFactory();
+
         Session session = factory.getCurrentSession();
 
-        try{
-            System.out.println("Creating student object");
-            Student tempStudent1 = new Student("Paul","Wall","paul@luv2code.com");
-            Student tempStudent2 = new Student("Mary","Public","mary@luv2code.com");
-            Student tempStudent3 = new Student("Bonita","Applebaum","bonita@luv2code.com");
+        try {
+
+            Instructor tempInstructor = new Instructor("Tomik","Varga","tomik@tomik.com");
+
+            InstructorDetail tempInstructorDetail =
+                    new InstructorDetail("youtube.com/tomikfortnite","tomik fortnite");
+
+            tempInstructor.setInstructorDetail(tempInstructorDetail);
 
             session.beginTransaction();
-
-            System.out.println("Saving the student");
-            session.save(tempStudent1);
-            session.save(tempStudent2);
-            session.save(tempStudent3);
 
             System.out.println("Commit transaction");
             session.getTransaction().commit();
-            System.out.println(tempStudent1.getId());
-
-            //getting student by id
-            session = factory.getCurrentSession();
-            session.beginTransaction();
-            System.out.println("getting student with id: "+tempStudent3.getId());
-            Student studentFromDB = session.get(Student.class,tempStudent3.getId());
-            System.out.println("Get complete "+studentFromDB);
-            session.getTransaction().commit();
 
             System.out.println("Done");
-        }catch (Exception exp) {
-            exp.printStackTrace();
-        }finally {
-            session.close();
-        }
 
-        //pozriet videa od 187
+        }catch(Exception e) {
+            e.printStackTrace();
+        }finally {
+            factory.close();
+        }
     }
 }
