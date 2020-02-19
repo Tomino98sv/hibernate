@@ -1,9 +1,9 @@
-package com.luv2code.hibernate.demoentity;
+package com.tutorial.demo.entity;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "instructor_detail")
+@Table(name="instructor_detail")
 public class InstructorDetail {
 
     @Id
@@ -11,11 +11,23 @@ public class InstructorDetail {
     @Column(name="id")
     private int id;
 
-    @Column(name="youtube_channel")
+    @Column(name = "youtube_channel")
     private String youtubeChannel;
 
-    @Column(name="hobby")
+    @Column(name = "hobby")
     private String hobby;
+
+    @OneToOne(mappedBy = "instructorDetail", cascade = {CascadeType.DETACH, CascadeType.PERSIST,
+                                                        CascadeType.MERGE, CascadeType.REFRESH})
+    private Instructor instructor;
+
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
+    }
 
     public InstructorDetail() {
     }

@@ -7,19 +7,30 @@
     <groupId>sk.pavlik</groupId>
     <artifactId>hibernate-tutorial</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <release>10</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.4.5.Final</version>
+            <version>4.3.10.Final</version>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.18</version>
         </dependency>
-
 
     </dependencies>
 

@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb602-6888-4afb-848a-2867e54d5d1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/CreateCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/CreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demo/DeleteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demoentity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/demo/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/hibernate/demoentity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/demo/entity/InstructorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/src/main/java/com/luv2code/jdbc/TestJdbc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/target/classes/com/luv2code/hibernate/demoentity/CreateStudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/target/classes/com/luv2code/hibernate/demoentity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/target/classes/com/luv2code/hibernate/demoentity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/target/classes/com/luv2code/jdbc/TestJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hibernatetutorial" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,6 +138,7 @@
       <workItem from="1578923920738" duration="23000" />
       <workItem from="1579161575968" duration="599000" />
       <workItem from="1579259958384" duration="718000" />
+      <workItem from="1582101001144" duration="101000" />
     </task>
     <servers />
   </component>

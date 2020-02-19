@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefdb602-6888-4afb-848a-2867e54d5d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernatetutorial2/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernatetutorial2/hibernatetutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/CreateCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/CreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/DeleteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/DeleteDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/UpdateDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/jdbc/TextJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/hibernate/demo/DeleteCourseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/demo/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/hibernate/demoentity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/demo/entity/InstructorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/jdbc/TestJdbc.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/CreateStudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/hibernate/demoentity/InstructorDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/jdbc/TestJdbc.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernatetutorial2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernatetutorial2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,6 +63,13 @@
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomas\Desktop\hibernate\hibernatetutorial\src\main\java" />
+      <recent name="C:\Users\Tomas\Desktop\hibernate\hibernatetutorial\src\main\java\com\luv2code" />
+      <recent name="C:\Users\Tomas\Desktop\hibernate\hibernatetutorial\src\main\java\com\luv2code\hibernate\demoentity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +83,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateStudentDemo">
+  <component name="RunManager" selected="Application.CreateDemo">
+    <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.CreateDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demoentity.CreateStudentDemo" />
       <module name="hibernate-tutorial" />
@@ -94,6 +123,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJdbc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.TestJdbc" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJdbc" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.jdbc.TestJdbc" />
       <module name="hibernate-tutorial" />
@@ -105,9 +147,13 @@
       <item itemvalue="Application.TestJdbc" />
       <item itemvalue="Application.CreateStudentDemo" />
       <item itemvalue="Application.DeleteDemo" />
+      <item itemvalue="Application.TestJdbc (1)" />
+      <item itemvalue="Application.CreateDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.TestJdbc (1)" />
         <item itemvalue="Application.CreateStudentDemo" />
         <item itemvalue="Application.DeleteDemo" />
       </list>
@@ -132,7 +178,13 @@
       <workItem from="1579161575968" duration="599000" />
       <workItem from="1579259958384" duration="718000" />
       <workItem from="1579260900413" duration="2550000" />
-      <workItem from="1579510930421" duration="1927000" />
+      <workItem from="1579510930421" duration="2527000" />
+      <workItem from="1579694659896" duration="756000" />
+      <workItem from="1579770204673" duration="52000" />
+      <workItem from="1579770808187" duration="946000" />
+      <workItem from="1581336248223" duration="951000" />
+      <workItem from="1581495023594" duration="426000" />
+      <workItem from="1582101103152" duration="52000" />
     </task>
     <servers />
   </component>
