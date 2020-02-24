@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hibernatetutorial" />
         <module name="hibernate-tutorial" />
+        <module name="hibernatetutorial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
